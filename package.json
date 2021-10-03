@@ -4,7 +4,8 @@
     "description": "This is an API based project using express js",
     "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./express/app.js"
     },
     "author": "Harsh Vaghani",
     "license": "ISC",
