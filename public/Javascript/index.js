@@ -22,7 +22,7 @@ let getInfo = async(e) => {
         display_container.classList.add("data_hide");
     } else {
         try {
-            let url = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=210bce695705cb1ec353898d78916f80`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=210bce695705cb1ec353898d78916f80`;
 
             let response = await fetch(url);
             let data = await response.json();
